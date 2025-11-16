@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Administration</title>
+
+<style>
+    .main {
+        width: 99%;
+        min-height: 99vh;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-image: url("back.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+
+    .main h1 {
+        width: 500px;
+        margin: 20px auto;
+        padding: 10px;
+        background: black;
+        color: white;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Times New Roman';
+    }
+
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    
+    .card {
+        width: 22%;
+        height: 350px;
+        background: white;
+        border-radius: 35px;
+        overflow: hidden;
+        border: 3px solid rgb(40, 40, 120);
+        position: relative;
+        box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    }
+
+    
+    .card img {
+        width: 100%;
+        height: 75%;
+        object-fit: cover;
+    }
+
+    
+    .name {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        padding: 6px;
+        text-align: center;
+        font-weight: bold;
+        background: black;
+        color: white;
+        border-radius: 40px;
+        font-size: 18px;
+    }
+
+    
+    .role {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        padding: 6px;
+        text-align: center;
+        font-weight: bold;
+        background: black;
+        color: white;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <h1>ADMINISTRATOR</h1>
+
+    
+    <div class="row">
+
+        <div class="card">
+            <div class="name">PRIYA</div>
+            <img src="priya.png" alt="Manager">
+            <div class="role">MANAGER</div>
+        </div>
+
+        <div class="card">
+            <div class="name">RABI</div>
+            <img src="rabi.png" alt="Assistant Manager">
+            <div class="role">ASST. MANAGER</div>
+        </div>
+
+        <div class="card">
+            <div class="name">AKASH</div>
+            <img src="akash.png" alt="Chef">
+            <div class="role">CHEF</div>
+        </div>
+
+    </div>
+
+    
+    <div class="row">
+
+        <div class="card">
+            <div class="name">RAJASHREE</div>
+            <img src="raj.png" alt="Cashier">
+            <div class="role">CASHIER</div>
+        </div>
+
+        <div class="card">
+            <div class="name">DARSHAN</div>
+            <img src="darshan.png" alt="Waiter">
+            <div class="role">WAITER</div>
+        </div>
+
+        <div class="card">
+            <div class="name">VISVES</div>
+            <img src="visves.png" alt="Servant">
+            <div class="role">SERVANT</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
